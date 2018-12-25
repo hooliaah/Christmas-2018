@@ -11,17 +11,16 @@
 #landing-div {
     background-color: aqua;
     opacity: .5;
+    margin: 10px;
     border-radius: 30px;
+    width: 50%;
 }
 
 #main-text{
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 20%;
-    position: relative;
-    font-size: 8vh;
+    font-size: 8vw;
     font-family: 'Acme', sans-serif;
     color: #006064;
+    padding: 10px;
 }
 
 h2, h4 {
@@ -37,7 +36,7 @@ p {
 }
 
 .music {
-    color: #958822;
+    color: #FCE950;
 }
 
 .footer-copyright {
