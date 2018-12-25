@@ -51,5 +51,10 @@ p {
 @media screen and (max-width: 40em) {
     #landing {
       background-image: url("../assets/zion-mobile.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: fixed;
+      background-attachment: scroll;
+      z-index: -1;
     }
   }
