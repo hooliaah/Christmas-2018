@@ -7,9 +7,17 @@
     background-attachment: fixed;
     z-index: -1;
 }
-#mainText{
+
+#landing-div {
+    background-color: aqua;
+    opacity: .5;
+    border-radius: 30px;
+}
+
+#main-text{
     margin-top: 5%;
     margin-left: 5%;
+    width: 20%;
     position: relative;
     font-size: 8vh;
     font-family: 'Acme', sans-serif;
@@ -26,4 +34,13 @@ h2, h4 {
 
 p {
     font-size: 18px;
+}
+
+.music {
+    color: #958822;
+}
+
+.footer-copyright {
+    background-color: #37474f;
+    padding: 10px;
 }
