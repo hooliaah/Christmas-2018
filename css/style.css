@@ -1,54 +1,55 @@
-#landing{
-    height: 100vh;
-    background-image: url('../assets/zion.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    z-index: -1;
+#landing {
+  height: 100vh;
+  background-image: url("../assets/zion.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
 }
 
 #landing-div {
-    background-color: rgba(220, 233, 233, 0.5);
-    margin-left: 10px;
-    border-radius: 40px;
-    width: 38%;
+  background-color: rgba(220, 233, 233, 0.5);
+  margin-left: 10px;
+  border-radius: 40px;
+  width: 38%;
 }
 
 h1 {
-    margin: 10px;
+  margin: 10px;
 }
 
-#main-text{
-    font-size: 7vw;
-    font-family: 'Courgette', cursive;
-    color: #006064;
-    padding: 10px;
+#main-text {
+  font-size: 7vw;
+  font-family: "Courgette", cursive;
+  color: #006064;
+  padding: 10px;
 }
 
-h2, h4 {
-    color: #006064;
+h2,
+h4 {
+  color: #006064;
 }
 
 .sarabun {
-    font-family: 'Sarabun', sans-serif;
+  font-family: "Sarabun", sans-serif;
 }
 
 p {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .music {
-    color: #FCE950;
+  color: #fce950;
 }
 
 .footer-copyright {
-    background-color: #37474f;
-    padding: 10px;
+  background-color: #37474f;
+  padding: 10px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 40em) {
     #landing {
-        background-image: url('../assets/zion-mobile.jpg');
+      background-image: url("../assets/zion-mobile.jpg");
     }
   }
