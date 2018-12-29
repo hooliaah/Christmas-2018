@@ -2,4 +2,4 @@
 
 A virtual holiday card built with HTML, CSS, and Materialize.
 
-[timjuliehuck.com]
+http://timjuliehuck.com
